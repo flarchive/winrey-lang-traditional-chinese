@@ -1,0 +1,73 @@
+# https://github.com/FriendsOfFlarum/gamification/blob/master/resources/locale/en.yml 
+# Wed, 25 Sep 2019 10:09:12 +0800
+
+core:
+  forum:
+    index_sort:
+      hot_button: 趨勢
+      
+fof-gamification:
+  forum:
+    votes: 點讚
+    vote_title: 顯示點讚的人
+    nav:
+      name: 排名
+    ranking:
+      rank: 排位
+      name: 用戶
+      amount: 👍
+    notification:
+      upvote: "{username} 讚了您的帖文"
+      downvote: "{username} 踩了您的帖文"
+    user:
+      points: "👍: {points}"
+      rank: "{rank}"
+    modal:
+      title: 打分
+      upvotes_label: 讚
+      downvotes_label: 踩
+    mod_item: 查看點讚的人
+  admin:
+    permissions:
+      vote_label: 讚/踩帖文
+      see_votes_label: 查看帖文讚/踩
+      see_ranking_page: 查看等級頁面
+    nav:
+      desc: 增強 Flarum 論壇遊戲性
+    page:
+      rankings:
+        blocked:
+          placeholder: CDK2020, Ralkage, AngelAvila
+          title: 忽略的用戶
+          help: 這些用戶不會在排名頁面上顯示。 用戶名應以逗號分隔，後跟空格。
+        title: 排名頁面
+        enable: 啟用自定義圖片
+        custom_image_1: 冠軍圖片
+        custom_image_2: 亞軍圖片
+        custom_image_3: 季軍圖片
+      votes:
+        points_title: 佔位符
+        points_placeholder: "👍: "
+        color_holder: '#ffffff'
+        auto_upvote: 當帖文發佈時自動點讚
+        rate_limit: 點讚頻率限制（10 秒）
+        discussion_page: 在貼文列表中顯示點讚數
+        title: 讚
+        vote_color: 點讚貼顏色
+        icon_name: 讚/踩小圖示
+        icon_help: "輸入任何 Font-Awesome 圖標，後綴為 -up 和 -down。 示例：箭頭，拇指，人字紋"
+      save_settings: 儲存設定
+      convert:
+        button: 轉換「喜歡」為「讚」
+        help: 將 flarum-ext-like 產生的「喜歡」轉換成「讚」，並計算所有當前討論的熱度
+        converting: 您的喜好正在被轉換，稍後幾分鐘刷新頁面查看轉換結果。（轉換可能需要一段時間，具體取決於您的論壇）
+        converted: "成功轉換 {number} 個喜歡"
+      ranks:
+        title: 等級
+        ranks: 自定義評分
+        number_title: 要顯示多少個徽章？
+        help:
+          color: '#ffffff'
+          help: "輸入所需數量的點贊數，級別名稱，以及等級顏色"
+          points: 👍
+          name: 名稱
